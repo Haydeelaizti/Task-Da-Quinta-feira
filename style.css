@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color:#000;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 360px;
+    height: 278px;
+    margin-top: 156px;
+}
+
+form {
+    color: #fff;
+    font-family: "Roboto", serif;
+    width: 665px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+label {
+    font-size: 20.92px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: block;
+    
+}
+
+#email {
+    width: 152.78px;
+    height: 24.47px;
+    margin-bottom: 8px;
+}
+
+#senha{
+    width: 59px;
+    height: 25px;
+    margin-bottom: 8px;
+}
+
+.dados {
+    width: 466px;
+    height: 86.72;
+    margin-top: 10px;
+}
+
+
+input {
+    border: 1.61px solid #C5C2C2;
+    border-radius: 4.02px ;
+    background-color: #353535;
+    width: 466px;
+    height: 57px;
+}
+
+button {
+    background-color: #2FB23C;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 31.48px;
+    width: 191px;
+    height: 67px;
+    font-family: "Poppins", serif;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42.5px;
+}
